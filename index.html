@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Register Form</legend>
+      <label for="lname">Name</label>
+      <input type="lname" id="" name="Name" placeholder="Name"><br>
+      <label for="sname">Surname</label>
+      <input type="sname" id="" name="email"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="" name="email"><br>
+      <label for="gender">Gender</label>
+      <div class="genderContainer">
+        <input type="radio" name="gender" id="genderf">
+        <label for="genderf">Female</label><br>
+        <input type="radio" name="gender" id="genderm">
+        <label for="genderm">Male</label><br>
+        <input type="radio" name="gender" id="genderd">
+        <label for="genderd">Divers</label><br>
+      </div><br>
+      <label for="pic">Picture</label>
+      <input type="file" name="pic" id="pic"><br>
+      <label for="country">Country</label>
+      <select name="country" id="">
+        <option value="ger">Germany</option>
+        <option value="eng">England</option>
+        <option value="fra">France</option>
+      </select><br>
+      <label for="prefLang">Preferred languages</label>
+      <select name="prefLang" id="prefLang" multiple>
+        <option value="html">html</option>
+        <option value="css">css</option>
+        <option value="js">js</option>
+        <option value="react">react</option>
+      </select><br>
+      <label for="activity">Field of activity</label>
+      <div class="activityContainer">
+        <input type="checkbox" name="activity" id="it">
+        <label for="it">IT</label><br>
+        <input type="checkbox" name="activity" id="design">
+        <label for="design">Design</label><br>
+        <input type="checkbox" name="activity" id="other">
+        <label for="other">Other</label><br>
+      </div>
+      <br><br><input class="button" type="submit" value="Submit">
+      <input class="button" type="reset" value="Reset">
+      <input class="button" type="button" value="Cancel">
+    </fieldset>
+  </form>
+</body>
+
+</html>
